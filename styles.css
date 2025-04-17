@@ -1,0 +1,86 @@
+body {
+    background-color: #fff7e6;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.stButton>button {
+    background-color: #ff8c42;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.stButton>button:hover {
+    background-color: white;
+    color: #ff8c42;
+    border: 2px solid #ff8c42;
+}
+
+.stSelectbox, .stNumberInput, .stSelectSlider {
+    background-color: #fff0e6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.stProgress {
+    background-color: #ff8c42;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff8c42;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar .sidebar-content {
+    background-color: #ffe5d1;
+}
+
+.sidebar .sidebar-content .radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .sidebar-content .radio-group label {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffcc99;
+    border: 1px solid #ffb266;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.sidebar .sidebar-content .radio-group label:hover {
+    background-color: #ffb266;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+

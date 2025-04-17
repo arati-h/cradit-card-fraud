@@ -1,0 +1,8 @@
+open cmd in the folder
+
+run following commands
+
+1. cc\scripts\activate
+2.  streamlit run app.py
+
+your project will run on your browser then try using it.
